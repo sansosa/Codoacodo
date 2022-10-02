@@ -1,0 +1,79 @@
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+body {
+    min-height: 75rem;
+    background-color: #0e0e0e;
+  }
+
+main div {
+ height: fit-content;
+ padding-bottom: 30px;
+}
+
+ main div .container .row .col {
+  max-width: 300px;
+}
+
+.bg-ba1{
+  background-image: url('images/ba1.jpg');
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
+
+  background-attachment: fixed;
+  background-size: cover;
+  
+  min-height: 34rem;
+}
+
+.bg-honolulu{
+  background-image: url('images/honolulu.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 25rem;
+  border-right: 1px solid white;
+}
+
+.bg-darkblue{
+  background-color: #1e4f6d;
+}
+
+#infoOctubre{
+  min-height: 25rem;
+  background-color: #353a40;
+}
+
+u{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.btn-green{
+  background-color: #96c93e;
+  color: white;
+  border: 0px;
+}
+
+#navbarCollapseFooter ul li{
+  width:120px;
+  min-height: 30px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  vertical-align: middle;
+}
